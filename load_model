@@ -1,0 +1,19 @@
+from keras.models import load_model
+import keras
+import os
+
+model_path = os.path.join("result_models/siamese_models", f"siamese_model_A_reverse_final.keras")
+print(f"🔍 Lade Modell: {model_path}")
+# Load the model
+#keras.config.enable_unsafe_deserialization()
+model = load_model(model_path, safe_mode=False)
+
+# Check the model architecture
+model.summary()
+print(model.summary())
+print("Model loaded successfully.")
+# Use the model for prediction
+#import numpy as np
+#sample_input = np.random.rand(1, 224, 224, 3)  # Example shape
+#predictions = model.predict(sample_input)
+#print(predictions)

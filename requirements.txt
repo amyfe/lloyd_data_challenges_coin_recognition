@@ -1,0 +1,19 @@
+opencv-python 
+matplotlib 
+numpy
+scikit-learn 
+opencv-contrib-python
+opencv-python
+tensorflow
+scikit-learn
+scikit-image
+albumentations
+seaborn
+streamlit
+torch
+coin_clip
+networkx
+plotly
+pandas
+pyvis
+#pip install -r requirements.txt
